@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  padding: 25px;
+  font-family: roboto;
+}
+.app-logo {
+  height: 50px;
+}
+.top {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+}
+.form-part {
+  background-color: #454f84;
+  width: 50%;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input-line {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  border: none;
+}
+input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #94a3b8;
+}
+.form-heading {
+  color: white;
+  margin-bottom: 20px;
+}
+.button {
+  align-self: flex-end;
+  background-color: #0b69ff;
+  color: #f8fafc;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+}
+.password-manager-image {
+  width: 40%;
+  height: 300px;
+}
+.bottom {
+  background-color: #5763a5;
+  padding: 15px;
+  margin-top: 10px;
+}
+.bottom-line {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-heading-line {
+  display: flex;
+  align-items: center;
+}
+
+.pp {
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  font-size: 22px;
+  padding-left: 15px;
+  padding-top: 1px;
+  color: white;
+  width: 50px;
+  margin-left: 10px;
+  height: 30px;
+}
+.input-line-search {
+  display: flex;
+  background-color: white;
+
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.line {
+  color: #ffffff;
+  background-color: #ffffff;
+  height: 1px;
+}
+.checkbox-line {
+  margin-left: auto;
+  text-align: right;
+  color: white;
+}
+.check-box-box {
+  margin-right: 10px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.no-passwords-image {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-passwords-text {
+  color: white;
+}
